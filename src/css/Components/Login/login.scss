@@ -216,6 +216,14 @@
         }
       }
     }
+    .scrollable-section{
+      float: left;
+      width: 100%;
+      height: 100px;
+      overflow:scroll;
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
   }
   .form-right-section{
     position: relative;
@@ -241,3 +249,48 @@
     }
   }
 }
+
+/*
+ *  STYLE 3
+ */
+ .scrollbar
+{
+	float: left;
+	height: 200px;
+	width: 100%;
+	background: #ffffff;
+  overflow-y: scroll;
+  overflow-x:hidden;
+	margin-bottom: 25px;
+}
+
+.force-overflow
+{
+  min-height: 250px;
+  padding-right: 10px;
+}
+
+#wrapper
+{
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+
+
+ #style-3::-webkit-scrollbar-track
+ {
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+   background-color: #F5F5F5;
+ }
+ 
+ #style-3::-webkit-scrollbar
+ {
+   width: 6px;
+   background-color: #F5F5F5;
+ }
+ 
+ #style-3::-webkit-scrollbar-thumb
+ {
+   background-color: #000000;
+ }

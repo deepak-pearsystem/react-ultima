@@ -43,16 +43,16 @@ class BestView extends Component {
           <div className="carousel-bottom-info">
           <div className="review-client-image">
             <div className="client-review-avatar">
-              <img className="client-avtar" src={`${BASE_URL}/Images/best-review.png`} alt="best-review"/>
+              <img src={require('../../Images/best-review.png')} alt="Best-review"/>
             </div>
             <div className="client-review-rating">
               <h2>Sam & Toni</h2>
               <ul className="client-rating">
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
               </ul> 
             </div>
           </div>
@@ -62,18 +62,18 @@ class BestView extends Component {
          </div>
          <div>
          <div className="carousel-bottom-info">
-         <div className="review-client-image">
+          <div className="review-client-image">
             <div className="client-review-avatar">
-              <img className="client-avtar" src={`${BASE_URL}/Images/best-review.png`} alt="best-review"/>
+              <img src={require('../../Images/best-review.png')} alt="Best-review"/>
             </div>
             <div className="client-review-rating">
               <h2>Sam & Toni</h2>
               <ul className="client-rating">
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
               </ul> 
             </div>
           </div>
@@ -85,16 +85,16 @@ class BestView extends Component {
         <div className="carousel-bottom-info">
         <div className="review-client-image">
             <div className="client-review-avatar">
-              <img className="client-avtar" src={`${BASE_URL}/Images/best-review.png`} alt="best-review"/>
+              <img src={require('../../Images/best-review.png')} alt="Best-review"/>
             </div>
             <div className="client-review-rating">
               <h2>Sam & Toni</h2>
               <ul className="client-rating">
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
               </ul> 
             </div>
           </div>
@@ -106,16 +106,16 @@ class BestView extends Component {
        <div className="carousel-bottom-info">
        <div className="review-client-image">
             <div className="client-review-avatar">
-              <img className="client-avtar" src={`${BASE_URL}/Images/best-review.png`} alt="best-review"/>
+              <img src={require('../../Images/best-review.png')} alt="Best-review"/>
             </div>
             <div className="client-review-rating">
               <h2>Sam & Toni</h2>
               <ul className="client-rating">
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
               </ul> 
             </div>
           </div>
@@ -127,16 +127,16 @@ class BestView extends Component {
       <div className="carousel-bottom-info">
       <div className="review-client-image">
             <div className="client-review-avatar">
-              <img className="client-avtar" src={`${BASE_URL}/Images/best-review.png`} alt="best-review"/>
+              <img src={require('../../Images/best-review.png')} alt="Best-review"/>
             </div>
             <div className="client-review-rating">
               <h2>Sam & Toni</h2>
               <ul className="client-rating">
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
               </ul> 
             </div>
           </div>
@@ -147,16 +147,16 @@ class BestView extends Component {
      <div className="carousel-bottom-info">
      <div className="review-client-image">
             <div className="client-review-avatar">
-              <img className="client-avtar" src={`${BASE_URL}/Images/best-review.png`} alt="best-review"/>
+              <img src={require('../../Images/best-review.png')} alt="Best-review"/>
             </div>
             <div className="client-review-rating">
               <h2>Sam & Toni</h2>
               <ul className="client-rating">
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
               </ul> 
             </div>
           </div>
@@ -168,16 +168,16 @@ class BestView extends Component {
     <div className="carousel-bottom-info">
     <div className="review-client-image">
             <div className="client-review-avatar">
-              <img className="client-avtar" src={`${BASE_URL}/Images/best-review.png`} alt="best-review"/>
+              <img src={require('../../Images/best-review.png')} alt="Best-review"/>
             </div>
             <div className="client-review-rating">
               <h2>Sam & Toni</h2>
               <ul className="client-rating">
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
               </ul> 
             </div>
           </div>
@@ -190,16 +190,16 @@ class BestView extends Component {
    <div className="carousel-bottom-info">
    <div className="review-client-image">
             <div className="client-review-avatar">
-              <img className="client-avtar" src={`${BASE_URL}/Images/best-review.png`} alt="best-review"/>
+              <img src={require('../../Images/best-review.png')} alt="Best-review"/>
             </div>
             <div className="client-review-rating">
               <h2>Sam & Toni</h2>
               <ul className="client-rating">
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
-                <li><img src={`${BASE_URL}/Images/star.svg`} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
+                <li><img src={require('../../Images/star.svg')} alt="review-star"/></li>
               </ul> 
             </div>
           </div>

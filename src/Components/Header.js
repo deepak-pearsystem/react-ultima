@@ -15,7 +15,8 @@ class Header extends Component {
         <Navbar expand="lg">
         <Navbar.Brand href="#home">
           <Link to="/">
-            <img src={`${BASE_URL}/Images/web-logo.png`} className="img-fluid" alt="logo"/>
+            <img src={ require('../Images/web-logo.png')} className="img-fluid" alt="logo"/>
+           
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
