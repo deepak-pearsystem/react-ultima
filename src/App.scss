@@ -1,0 +1,612 @@
+/*Custom scss*/
+body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+
+:root {
+  font-size: 16px;
+}
+::-webkit-input-placeholder { /* Edge */
+  color: #9fa2b3;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #9fa2b3;
+}
+
+::placeholder {
+  color: #9fa2b3;
+}
+
+.tooltip-inner {
+  background-color: #E9EAE4 !important;
+  color: #999 !important;
+  }
+  .tooltip.bs-tooltip-right .arrow:before {
+      border-right-color: #E9EAE4 !important;
+  }
+  .tooltip.bs-tooltip-left .arrow:before {
+      border-left-color: #E9EAE4 !important;
+  }
+  .tooltip.bs-tooltip-bottom .arrow:before {
+      border-bottom-color: #E9EAE4 !important;
+  }
+  .tooltip.bs-tooltip-top .arrow:before {
+      border-top-color: #E9EAE4 !important;
+  }
+// .nopadding {
+//   padding: 0 !important;
+//   margin: 0 !important;
+// }
+// .custom-container{
+//   width: 1140px;
+//   flex-wrap: wrap;
+//   margin-right: -15px;
+//   margin-left: -15px;
+//   margin: 0 auto;
+// }
+
+
+.owl-nav{
+  position: absolute;
+  top:35%;
+  width: 100%;
+  .owl-prev{
+      background: url('./Images/prev.png') no-repeat;
+      height: 50px;
+      width: 50px;
+      font-size: 0px;
+      position: absolute;
+      left: -70px;
+  }
+  .owl-next{
+    background: url('./Images/next.png') no-repeat;
+    height: 50px;
+    width: 50px;
+    font-size: 0px;
+    position: absolute;
+    right: -70px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media Query*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .login-section{
+    .login-panel-mask{
+      .login-panel {
+        width: 100%;
+        .form-title-section{
+          margin-top: 1rem;
+          p{
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+  } 
+  .login-section{
+    .form-right-section{
+      display: none;
+    }
+  }
+  
+  .login-section{
+    .col-md{
+      padding: 0px 15px;
+    }
+    .login-panel{
+      width: 100%;
+      padding: 15px;
+    }
+  }
+ 
+  .login-section{
+    .login-panel-mask{
+      .login-panel{
+        .social-media-btn{
+          .other-login-opt{
+            padding: 1em 0;
+          }
+          .custom-btn-forms{
+            min-width: 120px;
+            padding: 0px 10px 0px 30px;
+            font-size: 11px;
+          }
+          .login-gmail{
+            background:url('./Images/google-login.svg') no-repeat;
+            background-position: 4% center;
+          }
+          .login-facebook{
+            background:url('./Images/facebook-login.svg') no-repeat;
+            background-position: 4% center;
+          }
+        }
+      }
+    }
+  }
+ 
+ .co-owner-left,
+ .co-owner-right{
+  width: 100% !important;
+}
+
+
+.latest-auction{
+  .overlay-mask{
+    .auction-info-left{
+      width: 100%;
+    }
+    .auction-slider-right{
+      width: 100%;
+      .slider-shadow{
+        display: none;
+      }
+    }
+  }
+}  
+
+.winner-mask{
+  .overlay-mask{
+    img.overla-img{
+      display: none;
+    }
+    .winner-section{
+      height: auto;
+      display: inherit;
+      .winner-image{
+        width: 100%;
+      }
+      .winner-info{
+        width: 100%;
+      }
+    }
+  }
+}  
+.latest-auction{
+  .overlay-mask{
+    img.overla-img{
+      display: none;
+      right:0;
+      top: 0;
+    }
+  }
+} 
+
+.co-ownership-mask {
+  margin-bottom: 1em;
+  .co-ownership{
+    margin: 0em 0 0 0;
+  .co-owner-left{
+    .co-owner-info{
+      height: auto;
+      border:medium none;
+      margin: 1em;
+      padding: 1.5em;
+      h2{
+        font-size: 20px;
+        line-height: inherit;
+      }
+      p{
+        font-size: 14px;
+        line-height: 25px;
+      }
+    }
+  }
+  }
+} 
+.co-ownership-mask{
+  .our-stable{
+    margin: 2em 0 1em 0;
+    float: left;
+    .owl-stage-outer {
+      padding: 0em;
+    }
+    .carousel-bottom-info{
+      border-bottom: 1px solid #fff8f5;
+    }
+  }
+}  
+
+.three-tiles{
+  float: left;
+  width: 100%;
+  margin: 0.5em 0;
+  .tiles-mask{
+    padding: 0 1em;
+    display: unset !important;
+    .tiles-section:first-child,
+    .tiles-section:nth-child(2),
+    .tiles-section:last-child {
+      float: left;
+      width: 100% !important;
+      margin: 0.5em 0em !important;
+    }
+  }
+}
+
+
+
+
+
+ 
+.latest-auction{
+  padding-bottom: 1em;
+  .overlay-mask{
+    .auction-info-left{
+      .auction-info{
+        height: auto;
+        padding: 2em;
+        background: #fff8f5;
+        box-shadow: 0px 5px 30px #00000012;
+        margin-bottom: 1em;
+        h2{
+          font-size: 20px;
+          line-height: inherit;
+        }
+        p{
+          font-size: 14px;
+          line-height: 25px;
+        }
+      }
+    }
+    .auction-slider-right{
+      .custom-right-carousel{
+        right:0;
+      }
+      .owl-stage-outer {
+        padding: 0em;
+    }
+    .owl-nav {
+        top:44%;
+        .owl-prev{
+          left:10px;
+          border-radius: 50%;
+        }
+        .owl-next{
+          right:10px;
+          border-radius: 50%;
+        }
+    }
+    }
+  }
+}
+
+
+
+
+.winner-mask{
+  margin: 2em 0;
+  .overlay-mask{
+    .winner-section{
+      float: left;
+    padding: 2em;
+    width: 100%;
+    height: auto;
+    display: inherit;
+    background: #fff8f5;
+      .winner-info{
+        .winner-info-inner{
+          text-align: center;
+          h2{
+            font-size: 17px;
+            line-height: inherit;
+            margin-top: 1em;
+            text-align: center;
+          }
+          button{
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}    
+
+
+ 
+.best-views-mask{
+  float: left;
+  width: 100%;
+  margin-top: 2em;
+  .review-client-image{
+    .client-review-avatar{
+      width: 100%;
+      text-align: center;
+    }
+    .client-review-rating{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .carousel-bottom-info{
+    margin: 0px 15px;
+  }
+} 
+
+
+.footer-mask{
+  padding:1em;
+  .footer-container{
+    .footer-nav-menu{
+      nav{
+        ul{
+          margin:1em 0 1.5em 0;
+          li{
+            margin: 0.2em 0.5em;
+          }
+        }
+      }
+    }
+  }
+}  
+
+#carouselExampleCaptions{
+  .carousel-indicators{
+    margin-bottom: 15px;
+  }
+  .carousel-control-prev,
+.carousel-control-next{
+  display: none !important;
+}
+} 
+
+  .owl-nav{
+    .owl-prev{
+      position: inherit;
+      left: 0;
+    }
+    .owl-next{
+      position: inherit;
+      right: 0;
+    }
+  }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .login-section{
+    .form-right-section{
+      display: none;
+    }
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .custom-container{
+    width: 92%;
+    margin: 0 auto;
+  }
+  .custom-navbar{
+    .navbar-nav {
+      .li{
+        a{
+          padding-right: 1em !important;
+          padding-left: 1em !important;
+        }
+      } 
+    }
+  } 
+  // #carouselExampleCaptions{
+  //   .carousel-caption{
+  //     height: 15em;
+  //     h2{
+  //       font-size: 22px;
+  //       width: 90%;
+  //     }
+  //   } 
+  //   .carousel-indicators {
+  //     margin-bottom: 21px;
+  // }
+  // } 
+  .co-ownership-mask{
+    margin-bottom: 1em;
+    .co-ownership{
+      margin: 4em 0 3em 0;
+    .co-owner-left{
+      .co-owner-info{
+        height: 16em;
+        padding: 0 2em;
+        h2{
+          font-size: 20px;
+        }
+        p{
+          margin: 0.5em 0 1em 0;
+          font-size: 14px;
+          line-height: 23px;
+        }
+        button{
+          height: 38px;
+        }
+      }
+    } 
+  }
+  } 
+  .our-stable{  
+    margin: 4em 0 1em 0 !important;
+    .owl-nav{
+      .owl-prev{
+        left:25px;
+      }
+      .owl-next{
+        right:10px
+      }
+    }
+  }
+  .three-tiles{
+    .tiles-mask{
+      .tiles-section:nth-child(2) {
+        float: left;
+        margin: 0 0.9em !important;
+      }
+    } 
+  }
+
+  .latest-auction{
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    .overlay-mask {
+      .overla-img{
+        right: -340px;
+        top: -185px;
+      }
+      .auction-info-left{
+        .auction-info{
+          padding: 2em;
+          h2{
+            font-size: 19px;
+            line-height: 25px;
+          }
+          p{
+            font-size: 14px;
+            line-height: 19px;
+          }
+        }
+      }
+      .auction-slider-right{
+        .carousel-bottom-info{
+          h2{
+            font-size: 14px;
+          }
+          p{
+            font-size: 12px;
+          }
+          h3{
+            font-size: 12px;
+          }
+        }
+        .owl-nav{
+          top:24%;
+        }
+      }
+    }
+  }  
+
+
+ .winner-mask{
+  margin: 2em 0 4em 0;
+  .overlay-mask{
+    .overla-img{
+      left: -380px;
+    top: -290px;
+    }
+    .winner-section{
+      height: 270px;
+      .winner-image{
+        padding-top: 3em;
+      }
+      .winner-info{
+        .winner-info-inner{
+          h2{
+            font-size: 21px;
+            line-height: 32px;
+          }
+          button{
+            min-width: 170px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+ }    
+
+ .best-views-mask{
+   .carousel-bottom-info{
+    p{
+      font-size: 13px;
+      line-height: unset;
+      margin-bottom: 0.5em;
+    }
+     .review-client-image{
+       .client-review-avatar{
+        width: 25%;
+       }
+       .client-review-rating{
+        h2{
+          font-size: 14px;
+        }
+       }
+     }
+   }
+ }
+
+.footer-mask{
+  padding: 2em 0;
+  .footer-container{
+    .footer-nav-menu{
+      nav {
+        ul{
+          margin: 0.5em 0 1.5em 0;
+          li{
+            margin: 0.5em;
+          }
+        }
+      }
+    }
+  }
+}   
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .login-section{
+    .form-right-section{
+      display: none;
+    }
+  }
+  .co-ownership-mask{
+    .co-ownership{
+      .co-owner-left{
+        .co-owner-info{
+          height: 21em;
+        }
+      }
+    }
+  }  
+  .custom-navbar{
+    .navbar-nav{
+      li{
+        a{
+          padding-right: 1em !important;
+          padding-left: 1em !important;
+        }
+      }
+    }
+  }  
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .login-section{
+    .form-right-section{
+      display: block;
+    }
+  }
+}

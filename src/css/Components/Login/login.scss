@@ -1,0 +1,243 @@
+.login-section{
+  .col-md{
+    padding: 0;
+  }
+  .login-img{
+    background: url('../../../Images/login-background.png') no-repeat 85%;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+  }
+  .login-panel-mask{
+    box-shadow: 0px 3px 6px #00000012;
+    opacity: 1;  
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .login-panel{
+      margin: 0 auto;
+      width: 430px;
+      .login-logo{
+        background: url('../../../Images/login-logo.png') no-repeat;
+        background-position: left center;
+        padding: 10px 0px 10px 60px;
+        text-align: left;
+        h2{
+          font-size: 1.25rem;
+          letter-spacing: 0px;
+          color: #0F1642;
+          text-transform: uppercase;
+          opacity: 1;
+          font-family: normal normal bold 20px/23px Times New Roman;
+        }
+        h4{
+          letter-spacing: 0px;
+          color: #0F1642;
+          text-transform: uppercase;
+          opacity: 1;
+          font-size: 0.6875rem;
+          line-height: 8px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 600;
+        }
+      }
+      .form-title-section{
+        text-align: left;
+        margin-top: 2rem;
+        h2{
+          font-size: 1.4375rem;
+          letter-spacing: 0px;
+          color: #0F1642;
+          opacity: 1;
+          font-weight: 700;
+        }
+        p{
+          letter-spacing: 0px;
+          color: #65687D;
+          opacity: 1;
+          font-size: 1rem;
+        }
+        .forgot-password-text{
+          margin-bottom: 2rem;
+        }
+      }
+      .social-media-btn{
+        margin-top: 2rem;
+        .custom-btn-forms{
+          min-width: 205px;
+          height: 42px;
+          background: #FFFFFF 0% 0% no-repeat padding-box;
+          box-shadow: 0px 0px 6px #0000001C;
+          border-radius: 4px;
+          opacity: 1;
+          font-size: 0.875rem;
+          transition: all 0.6s ease;
+          padding: 0px 15px 0px 40px;
+          &:hover{
+            box-shadow: 0px 0px 6px #c0c0c0;
+            transition: all 0.6s ease;
+          }
+        }
+        .login-gmail{
+          background:url('../../../Images/google-login.svg') no-repeat;
+          background-position: 6% center;
+        }
+        .login-facebook{
+          background:url('../../../Images/facebook-login.svg') no-repeat;
+          background-position: 6% center;
+        }
+        .other-login-opt{
+          float: left;
+          width: 100%;
+          padding: 1.5em 0 1em 0;
+          text-transform: uppercase;
+          letter-spacing: 0px;
+          color: #0F1642;
+          opacity: 0.6;
+          font-weight: bold;
+        }
+        .custom-btn-forms.login-gmail{
+          float: left;
+        }
+        .custom-btn-forms.login-facebook{
+          float: right;
+        }
+      }
+      .login-form-mask{
+        float: left;
+        width: 100%;
+        text-align: left;
+        .form-field-mask{
+          float: left;
+          width: 100%;
+        }
+        .custom-form{
+          label{
+            float: left;
+            width: 100%;
+            letter-spacing: 0px;
+            color: #0F1642;
+            opacity: 1;
+            font-weight: bold;
+          }
+          .form-inputs{
+            float: left;
+            width: 100%;
+            height: 42px;
+            border: 1px solid #C8C8C8;
+            border-radius: 4px;
+            opacity: 1;
+            font-size: 0.875rem;
+            margin-bottom: 1.2em;
+            padding: 0em 1em;
+          }
+          .col-md{
+            padding: 0px 15px;
+          }
+          .form-submit-btn{
+            float: left;
+            width: 100%;
+            height: 42px;
+            border:medium none;
+            background: #0F1642 0% 0% no-repeat padding-box;
+            border-radius: 4px;
+            opacity: 1;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            margin: 2rem 0;
+            transition: all 0.6s ease;
+            &:hover{
+              transition: all 0.6s ease;
+              background: #051262 0% 0% no-repeat padding-box;
+            }
+          }
+          .form-checkbox{
+            text-align: left;
+            float: left;
+            font-size: 	0.875rem;
+            color: #0F1642;
+            opacity: 0.6;
+            font-weight: bold;
+            .custom-checkbox{
+              float: left;
+              font-size: 1rem;
+              margin: 5px 8px 0px 0px;
+            }
+            .chekbox-text{
+              float: left;
+              width: 93%;
+            }
+          }
+          .form-cant-login{
+            float: right;
+            letter-spacing: 0px;
+            color: #0F1642;
+            opacity: 1;
+            font-weight: bold;
+            &:hover{
+              text-decoration: none;
+            }
+          }
+          .form-chcek-left{
+            float: left;
+            width: 50%;
+          }
+          .form-chcek-right{
+            float: right;
+            width: 50%;
+          }
+        }
+        .form-error{
+          float: left;
+          width: 100%;
+          color: #f00;
+          font-size: 11px;
+          margin-top: -10px;
+        }
+      }
+      .form-bottom-text{
+        float: left;
+        width: 100%;
+        letter-spacing: 0px;
+        color: #6f738e;
+        font-weight: bold;
+        font-size: 	0.875rem;
+        a{
+          letter-spacing: 0px;
+          color: #0f1642;
+          font-weight: bold;
+          margin-left: 5px;
+          &:hover{
+            text-decoration: none;
+            color: #0f1642;
+          }
+        }
+      }
+    }
+  }
+  .form-right-section{
+    position: relative;
+    .image-footer-links{
+      position: absolute;
+      width: 65%;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      bottom: 2em;
+      color: #fff;
+      .privacy-text{
+        font-size: 1em;
+        a{
+          color:#fff;
+          text-decoration: none;
+        }
+      }
+      .copyright-text{
+        font-size: 0.6875rem;
+        padding-top: 8px;
+      }
+    }
+  }
+}

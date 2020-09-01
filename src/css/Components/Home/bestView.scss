@@ -1,0 +1,81 @@
+.bestview-section{
+  float: left;
+  width: 100%;
+  margin-bottom: 5em;
+  .best-views-mask{
+    text-align: left;
+    float: left;
+    width: 100%;
+    .owl-stage-outer{
+      padding: 1em 0;
+    }
+    h2{
+      font-size: 24px;
+      font-weight: 700;
+      color: #0F1642;
+      text-transform: uppercase;
+    }
+    p{
+      font-size: 18px;
+      font-weight: 400;
+      color: #0F1642;
+      margin-bottom: 1.5em;
+    }
+    .owl-nav{
+      display:none;
+    }
+    .carousel-bottom-info{
+      box-shadow: 0px 5px 30px #00000012;
+      padding: 2em;
+      h2{
+        font-size: 16px;
+        font-weight: bold;
+        color:#0F1642;
+      }
+      p{
+        font-size: 14px;
+        color:#0F1642;
+        line-height: 24px;
+        margin-bottom: 0;
+      }
+      h3{
+        font-size: 14px;
+        color:#0F1642;
+        line-height: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+      .client-rating{
+        float: left;
+        width: 100%;
+        float: left;
+        margin: 0;
+        padding: 0;
+        li{
+          display: inline-block;
+          margin-right: 3px;
+        }
+      }
+     
+    }
+    .review-client-image{
+      float: left;
+      width: 100%;
+      margin-bottom: 0.5em;
+      .client-review-avatar{
+        float: left;
+        text-align: left;
+        width: 20%;
+        img{
+          width: 65px;
+          display: inline-block;
+        }
+      }
+      .client-review-rating{
+        float: left;
+        width: 75%;
+        padding-top: 0.5em;
+      }
+    }
+  }
+}

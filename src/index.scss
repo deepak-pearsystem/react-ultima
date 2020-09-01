@@ -1,0 +1,30 @@
+// Main CSS
+@import './css/fonts.scss';
+
+// Component CSS
+@import './css/Components/resetPasswordLink.scss';
+@import './css/Components/newPassword.scss';
+@import './css/Components/Home/homeCarousel.scss';
+@import './css/Components/Home/coOwnership.scss';
+@import './css/Components/Home/threeLayout.scss';
+@import './css/Components/Home/ourStable.scss';
+@import './css/Components/Home/latestAuction.scss';
+@import './css/Components/Home/winner.scss';
+@import './css/Components/Home/bestView.scss';
+@import './css/Components/Footer/footer.scss';
+@import './css/Components/Header/header.scss';
+@import './css/Components/Login/login.scss';
+@import './css/Components/PersonalSetting/personalSetting.scss';
+
+
+//13. Responsive
+@import './css/responsive.scss';
+
+@media screen and  (min-width: 768px) and (max-width: 1024px){
+}
+
+@media screen and (max-width: 767px){
+}
+
+@media screen and (max-width: 375px){
+}

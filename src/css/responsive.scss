@@ -1,0 +1,489 @@
+@media screen and  (max-width: 767px) {
+
+  .carousel-section{
+    .carousel-caption{
+        display: none;
+    }
+  }
+ 
+  .co-ownership-section{
+    margin-bottom: 0em;
+    .overlay-mask{
+      .co-ownership{
+        margin: 1em 0;
+        .co-owner-left{
+          .co-owner-info{
+            height: auto;
+            padding: 2em;
+            h2{
+              font-size: 18px;
+              margin-bottom: 0;
+            }
+            p{
+              font-size: 15px;
+              line-height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }  
+  
+  .ourstable-section{
+    float: left;
+    width: 100%;
+    .our-stable{
+      margin: 1em 0;
+      .ourstable-carousel{
+        p{
+          margin-bottom: 0em;
+        }
+        .owl-nav{
+          .owl-prev {
+            position: inherit;
+            left: 15px;
+          }
+        }
+        .owl-stage-outer{
+
+        }
+      }
+    }
+  }
+
+  .latestauction-section{
+    float: left;
+    width: 100%;
+    .latest-auction{
+      margin: 1em 0;
+      padding: 0px;
+      .overlay-mask{
+        .overla-img{
+
+        }
+        .auction-info-left{
+          float: left;
+            width: 100%;
+          .auction-info{
+              height: auto;
+            h2{
+              font-size: 25px;
+              margin-bottom: 0px;
+              line-height: 30px;
+            }
+            p{
+              font-size: 14px;
+              line-height: 25px;
+            }
+            button{
+
+            }
+          }
+        }
+        .auction-slider-right{
+          float: left;
+          width: 100%;
+          .custom-right-carousel{
+            right:0px;
+            .owl-nav{
+              .owl-next{
+                right:0px;  
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  .winner-section{
+    float: left;
+    width: 100%;
+    
+    .winner-mask{
+      margin: 1em 0;
+      .overlay-mask{
+        .overla-img{
+
+        }
+        .winner-section{
+          height: auto;
+          display: inherit;
+          background-position: left top, right bottom;
+          background-repeat: no-repeat, no-repeat;
+          background-size: 22%, 50%;
+          .winner-image{
+            float: left;
+            width: 100%;
+            margin-top: 3em;
+            text-align: center;
+          }
+          .winner-info{
+            float: left;
+            width: 100%;
+            .winner-info-inner{
+              width: 100%;
+              h2{
+                font-size: 22px;
+                line-height: 35px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bestview-section{
+    margin-bottom: 2em;
+    .best-views-mask{
+      p{
+        margin-bottom: 0em;
+      }
+    }
+  }
+
+.footer{
+  .footer-section{
+    float: left;
+    width: 100%;
+    .footer-mask{
+      padding: 1.5em 0.5em;
+      .footer-container{
+        .footer-nav-menu{
+          nav{
+            ul{
+              margin: 1em 0 1.5em 0;
+              li{
+                  margin: 0.2em 0.5em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.personalsetting-section{
+  .profile-mask{
+    .profile-left-section{
+      width: 100%;
+      height: auto;
+      .custom-profile-tabs{
+        .active{
+          right: 0;
+        }
+      }
+    }
+    .profile-right-section{
+      width: 100%;
+      .custom-profile-tabs-content{
+        .tab-profile-image{
+          .profile-image{
+            width: 30%;
+          }
+          .tab-profile-name{
+            width: 68%;
+          }
+        }
+        .custom-country{
+          width: 100%;
+          .country-no-input{
+            width: 65%;
+          }
+        }
+      }
+      
+    }
+  }
+}
+
+
+.resetpassword-section{
+  .resetpassword-info{
+    width: 100%;
+      padding: 0em 1em;
+  }
+} 
+
+.newpassword-section{
+  .newpassword-info{
+    .new-password-form{
+      width: 100%;
+      padding: 0em 1em;
+    }
+  } 
+} 
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .carousel-section{
+    .carousel-caption{
+        height: 16em;
+        h2{
+          font-size: 22px;
+        }
+    }
+    .carousel-indicators {
+      margin-bottom: 25px;
+    }
+  }
+
+
+  .co-ownership-section{
+    margin-bottom: 0em;
+    .overlay-mask{
+      .co-ownership{
+        margin: 3em 0;
+        .co-owner-left{
+          .co-owner-info{
+            height: auto;
+            padding: 1em 2em;
+            h2{
+              font-size: 18px;
+              margin-bottom: 0;
+            }
+            p{
+              font-size: 15px;
+              line-height: 25px;
+              margin: 0.5em 0;
+            }
+            button{
+              height: 36px;
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }  
+
+
+  .latestauction-section{
+    float: left;
+    width: 100%;
+    .latest-auction{
+      margin: 1em 0;
+      padding: 0px;
+      .overlay-mask{
+        .overla-img{
+
+        }
+        .auction-info-left{
+          float: left;
+            width: 30%;
+          .auction-info{
+            height: 31em;
+            padding: 2em 1em;
+            h2{
+              font-size: 25px;
+              margin-bottom: 0px;
+              line-height: 30px;
+            }
+            p{
+              font-size: 14px;
+              line-height: 25px;
+            }
+            button{
+
+            }
+          }
+        }
+        .auction-slider-right{
+          float: left;
+          width: 70%;
+          .custom-right-carousel{
+            right:0px;
+            .owl-nav{
+              top:23%;
+              .owl-next{
+                right:0px;  
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .winner-section{
+    float: left;
+    width: 100%;
+    
+    .winner-mask{
+      margin: 1em 0;
+      .overlay-mask{
+        .overla-img{
+
+        }
+        .winner-section{
+          height: 300px;
+          display: inherit;
+          background-position: left top, right bottom;
+          background-repeat: no-repeat, no-repeat;
+          background-size: 22%, 50%;
+          .winner-image{
+            float: left;
+            width: 50%;
+            margin-top: 3em;
+            text-align: center;
+            img{
+              width: 55%;
+              margin-top: 4em;
+            }
+          }
+          .winner-info{
+            float: left;
+            width: 50%;
+            .winner-info-inner{
+              width: 100%;
+              margin-top: 4em;
+              h2{
+                font-size: 22px;
+                line-height: 35px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .personalsetting-section{
+    .profile-mask{
+      .profile-left-section{
+        
+        .custom-profile-tabs{
+          .active{
+            right: 0;
+          }
+        }
+      }
+      .profile-right-section{
+        
+        .custom-profile-tabs-content{
+          .tab-profile-image{
+            .profile-image{
+              width: 30%;
+            }
+            .tab-profile-name{
+              width: 68%;
+            }
+          }
+          .custom-country{
+            width: 100%;
+            .country-no-input{
+              width: 65%;
+            }
+          }
+        }
+        
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1199px) {
+  .header-section{
+    .custom-navbar{
+      .dropdown.nav-item{
+        a{
+          padding: 0.5em !important;
+        }
+        a.nav-link{
+          padding: 0.5em !important;
+        }
+      }
+    } 
+  }  
+
+  .co-ownership-section{
+    margin-bottom: 0em;
+    .overlay-mask{
+      .co-ownership{
+        margin: 3em 0;
+        .co-owner-left{
+          .co-owner-info{
+            height: 21em;
+            padding: 1em 2em;
+          
+            p{
+              
+              margin: 1em 0;
+            }
+           
+          }
+        }
+      }
+    }
+  }  
+  
+  .latestauction-section{
+    .latest-auction{
+      .overlay-mask{
+        .auction-info-left{
+          .auction-info{
+            height: 30em;
+            padding: 1.5em;
+            h2{
+              font-size: 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .winner-section{
+    .winner-mask{
+      .overlay-mask{
+        .winner-section{
+          .winner-image{
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+ 
+  .personalsetting-section{
+    .profile-mask{
+      .profile-left-section{
+        
+        .custom-profile-tabs{
+          .active{
+            right: 0;
+          }
+        }
+      }
+      .profile-right-section{
+        
+        .custom-profile-tabs-content{
+          .tab-profile-image{
+            .profile-image{
+              width: 18%;
+            }
+            .tab-profile-name{
+              width: 80%;
+            }
+          }
+          .custom-country{
+            width: 50%;
+            .country-no-input{
+              width: 60%;
+            }
+          }
+        }
+        
+      }
+    }
+  }
+
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) { 
+}
